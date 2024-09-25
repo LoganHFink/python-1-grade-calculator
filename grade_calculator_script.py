@@ -18,7 +18,7 @@ mrk_final_exam = int(input("Enter the grade for the final exam: "))
 
 mrk_mid_fin_prep = int(input("Enter the grade for midterms and final preparation: "))
 
-def get_mrk(x):
+def get_mrk(x:int) -> float:
     if x > 6:
         return 100
     else:
